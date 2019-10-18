@@ -1356,10 +1356,9 @@ class Stylesheet
                             case ":right":
                             case ":odd":
                             case ":even":
-                            /** @noinspection PhpMissingBreakStatementInspection */
                             case ":first":
                                 $key = $page_selector;
-
+                                break;
                             default:
                                 break 2;
                         }
